@@ -32,11 +32,9 @@ android {
 }
 
 dependencies {
-    compile "io.reactivex:rxjava:${project.rxJavaVersion}"
-    compile "io.reactivex:rxandroid:${project.rxAndroidVersion}"
+    compile "com.android.support:appcompat-v7:${project.supportLibrariesVersion}"
+    compile "com.android.support:design:${project.supportLibrariesVersion}"
     compile project(':droidux')
     apt project(':droidux-processor')
     compile project(':middlewares:droidux-thunk')
-    compile "com.android.support:appcompat-v7:${project.supportLibrariesVersion}"
-    compile "com.android.support:design:${project.supportLibrariesVersion}"
 }

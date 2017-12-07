@@ -33,16 +33,16 @@ ext {
     def versionPatch = 0
     versionName = "${versionMajor}.${versionMinor}.${versionPatch}"
 
-    compileSdkVersion = 23
-    buildToolsVersion = '23.0.2'
+    compileSdkVersion = 26
+    buildToolsVersion = '26.0.2'
     minSdkVersion = 15
-    targetSdkVersion = compileSdkVersion
+    targetSdkVersion = 25
 
     databindingBaseLibraryVersion = '1.0'
     databindingLibraryVersion = '1.0-rc3'
     supportLibrariesVersion = '23.1.1'
-    rxJavaVersion = '1.1.0'
-    rxAndroidVersion = '1.0.1'
+    rxJavaVersion = '2.0.7'
+    rxAndroidVersion = '2.0.1'
     spockCoreVersion = '1.0-groovy-2.4'
     cglibVersion = '2.2'
 }
